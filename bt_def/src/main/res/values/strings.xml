@@ -1,0 +1,7 @@
+<resources>
+    <string name="pairedDev">Paired Devices</string>
+    <string name="findDev">Find New Device</string>
+    <string name="empty">Empty</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
