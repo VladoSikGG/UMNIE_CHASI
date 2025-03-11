@@ -103,25 +103,76 @@
         app:layout_constraintEnd_toEndOf="@+id/btColibrate"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/etProduct"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btSendApi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send"
+        android:layout_marginBottom="135dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/send"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/txtViewStatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="#FF0000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etProduct" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCallories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Info"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etColibrate"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtBelki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Info"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etColibrate"
+        app:layout_constraintStart_toEndOf="@+id/txtCallories" />
+
+    <TextView
+        android:id="@+id/txtJiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Info"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etColibrate"
+        app:layout_constraintStart_toEndOf="@+id/txtUglevodi" />
+
+    <TextView
+        android:id="@+id/txtUglevodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Info"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etColibrate"
+        app:layout_constraintStart_toEndOf="@+id/txtBelki" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
