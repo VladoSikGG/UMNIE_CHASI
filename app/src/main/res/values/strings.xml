@@ -11,6 +11,11 @@
     <string name="tare">Tare</string>
     <string name="colibrate">Colibrate</string>
     <string name="hintToColibrate">Enter weight to colibrate</string>
+    <string-array name="spinner_items">
+        <item>Banana</item>
+        <item>Apple</item>
+        <item>Orange</item>
+    </string-array>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -48,5 +53,6 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="send">Send</string>
 
 </resources>
